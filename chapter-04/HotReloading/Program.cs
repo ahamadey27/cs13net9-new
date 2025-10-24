@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-//testing
-//testing 2
+﻿while (true)
+{
+    WriteLine("Hello22, Hot Reload");
+    await Task.Delay(2000);
+}
