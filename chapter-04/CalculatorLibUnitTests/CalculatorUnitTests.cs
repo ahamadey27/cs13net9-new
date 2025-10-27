@@ -1,4 +1,5 @@
 ﻿using CalculatorLib;
+using Xunit;
 
 namespace CalculatorLibUnitTests;
 
@@ -12,7 +13,7 @@ public class CalculatorUnitTests
         double a = 2;
         double b = 2;
         double expected = 4;
-        Calulator calc = new();
+        Calculator calc = new();
 
         //Act: Execute the function to test
         double actual = calc.Add(a, b);
