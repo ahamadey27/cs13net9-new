@@ -1,8 +1,11 @@
-﻿namespace Exercise_PrimeFactorsLib;
+﻿using System;
+using System.Collections.Generic;
+
+namespace Exercise_PrimeFactorsLib;
 
 public static class PrimeFactors
 {
-    public static string PrimeFactors(int number)
+    public static string GetPrimeFactors(int number)
     {
         if (number == 1) return "1";
         if (number <= 0) throw new ArgumentOutOfRangeException(nameof(number));
