@@ -7,4 +7,6 @@ ConfigureConsole(); //Sets current culture to US English
 //ConfigureConsole(culture: "fr-FR"); //Use French culture 
 
 Person bob = new(); 
-WriteLine(bob.ToString());
+WriteLine(bob.ToString()); //ToString() method is optional, but does the same thing
+
+
