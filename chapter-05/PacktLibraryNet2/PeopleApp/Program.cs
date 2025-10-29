@@ -5,3 +5,6 @@ ConfigureConsole(); //Sets current culture to US English
 //Alternatives: 
 //ConfigureConsole(useComputerCulture = true); //Use current culture
 //ConfigureConsole(culture: "fr-FR"); //Use French culture 
+
+Person bob = new(); 
+WriteLine(bob.ToString());

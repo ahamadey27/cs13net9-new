@@ -1,4 +1,4 @@
-﻿using Sytem.Globalization; 
+﻿using System.Globalization; 
 
 partial class Program
 {
@@ -15,7 +15,7 @@ partial class Program
 		}
 		if (showCulture)
 		{
-			WriteLine($"Current Culture: {CultureInfo.CurrentCulture.DisplayName}.")
+			WriteLine($"Current Culture:{CultureInfo.CurrentCulture.DisplayName}.");
 		}
 	}
 }
